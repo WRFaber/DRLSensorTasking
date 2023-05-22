@@ -10,6 +10,16 @@ To test all aspects of the project simple leverage the test folder. Within the t
 
 Note: The main functionality can be tested using the class test_integration.py. This class contains the test for training the DQN as well as plotting and saving results. Tests are run via the VS Code testing functionality.
 
+## Install (Conda with VS Code IDE)
+Install conda
+create new conda environment
+  conda create --name DRLSensorTasking python=3.8.3
+activate environment
+  conda activate DRLSensorTasking
+Install packages
+  conda install tensorflow=2.9.1
+  conda install matplotlib=3.4.3
+
 ## Resources that can help you get started:
 
     Starting a python project in vs code

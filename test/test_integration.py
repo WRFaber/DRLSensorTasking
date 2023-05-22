@@ -1,5 +1,4 @@
 import unittest
-from tqdm import tqdm
 from DRLSensorTasking.dqn_agent import DQNAgent
 from DRLSensorTasking.rso_env import RSOEnv
 import numpy as np
